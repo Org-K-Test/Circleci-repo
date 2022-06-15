@@ -24,3 +24,8 @@ workflows:
   workflow_2:
     jobs:
       - job_2
+      
+  workflow_3:
+      - job_3
+      
+      
