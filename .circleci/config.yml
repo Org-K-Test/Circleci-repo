@@ -32,7 +32,7 @@ jobs:
     steps:
       - run: echo "Say hello to YAML!"
       
-   job_6:
+  job_6:
     docker:
      - image: cimg/base:2022.05
     steps:
@@ -57,11 +57,11 @@ workflows:
     jobs:
       - job_4
       
- workflow_5:
+  workflow_5:
     jobs:
       - job_5 
       
- workflow_6:
+  workflow_6:
     jobs:
       - job_6
       
